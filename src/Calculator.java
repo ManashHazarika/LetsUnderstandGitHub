@@ -10,7 +10,14 @@ public class Calculator {
         System.out.print("Enter the operation : ");
         char op = input.next().charAt(0);
 
-        double total = num1 + num2;
-        System.out.println("Sum : " + total);
+        switch(op){
+            case '+':
+                double total = num1 + num2;
+                System.out.println("Sum : "+ total);
+                break;
+
+            default:
+                System.out.println("Invalid operation.");
+        }
     }
 }
