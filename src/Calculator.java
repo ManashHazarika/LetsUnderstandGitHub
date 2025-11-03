@@ -21,7 +21,21 @@ public class Calculator {
                 break;
             case '*':
                 double mul = num1 * num2;
-                System.out.println("Multipliaction : "+ mul);
+                System.out.println("Multiplication : "+ mul);
+                break;
+            case '/' :
+                if(num2 != 0){
+                    double div = num1/num2;
+                    System.out.println("Division : " + div);
+                    break;
+                }
+                else {
+                    System.out.println("Division by zero is not allowed");
+                    break;
+                }
+            case '%' :
+                double mod = num1 % num2;
+                System.out.println("Modulus : " + mod);
                 break;
 
             default:
