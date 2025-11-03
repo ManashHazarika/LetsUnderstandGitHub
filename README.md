@@ -1,4 +1,4 @@
-# 👨‍💻 GitHub Learning Hub
+# 👨‍💻 LetsUnderstandGitHub
 
 Welcome to our GitHub repository! We're three friends on a mission to explore, understand, and master GitHub together. This space is our playground for learning version control, collaboration, and open-source workflows.
 
@@ -37,4 +37,5 @@ Each of us brings curiosity and a willingness to learn. This repo is where we ex
 
 ---
 
-Happy coding and collaborating! 🎉
+Let’s learn, build, and grow together! 💡
+
