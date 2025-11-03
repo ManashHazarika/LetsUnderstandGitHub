@@ -19,6 +19,10 @@ public class Calculator {
                 double sub = num1 - num2;
                 System.out.println("Subtraction : "+ sub);
                 break;
+            case '*':
+                double mul = num1 * num2;
+                System.out.println("Multipliaction : "+ mul);
+                break;
 
             default:
                 System.out.println("Invalid operation.");
