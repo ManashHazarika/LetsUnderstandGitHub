@@ -13,7 +13,11 @@ public class Calculator {
         switch(op){
             case '+':
                 double total = num1 + num2;
-                System.out.println("Sum : "+ total);
+                System.out.println("Summation : "+ total);
+                break;
+            case '-':
+                double sub = num1 - num2;
+                System.out.println("Subtraction : "+ sub);
                 break;
 
             default:
