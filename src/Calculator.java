@@ -10,6 +10,7 @@ public class Calculator {
         System.out.print("Enter the operation : ");
         char op = input.next().charAt(0);
 
+//        Commenting
         switch(op){
             case '+':
                 double total = num1 + num2;
